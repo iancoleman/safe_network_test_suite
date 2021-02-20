@@ -112,6 +112,7 @@ class TestNrs(unittest.TestCase):
         # TODO
         # calling nrs create for a subname without an existing name
         # normally this requires nrs create <name> then nrs add <subname>
+        # unicode normalization
 
     def test_nrs_chars(self):
         files = self.files
