@@ -1,3 +1,4 @@
+# Measures the time to do 50 file uploads (PUTs) in a row
 from common import *
 import os
 import math
